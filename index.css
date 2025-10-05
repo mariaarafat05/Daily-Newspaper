@@ -1,0 +1,42 @@
+body{
+    background-color: #070707
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: serif;
+}
+.Newspaper{
+    background-color: #fff;
+    width: 900px;
+    padding: 200px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border: 1px solid #ddd;
+
+}
+.text{
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+.text h2{
+    margin: 0;
+    font-size: 22px;
+}
+.text p{
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: gray;
+}
+h1{
+    text-align: center;
+    font-size: 34px;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+.content img{
+    width: 250px;
+    border: 1px solid #000;
+}
